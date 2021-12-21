@@ -7,6 +7,15 @@ body{
     background-color: #EFEFEF;
 }
 
+.slick-next{
+    filter: invert(1);
+}
+
+.slick-prev{
+    filter: invert(1);
+}
+
+
 @font-face{
     font-family: 'nav-bar';
     src: url('../fonts/Rubik-Medium.ttf');
@@ -183,6 +192,75 @@ body{
     border-radius: 5px;
 }
 
+.form{
+    width: 400px;
+    padding-top: 10px;
+    text-align: center;
+    min-height: 500px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form h3{
+    font-size: 20px;
+    color: #466265;
+}
+
+.form input{
+    width: 100%;
+    height: 66px;
+    background-color: #EFEFEF;
+    border: none;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.form textarea{
+    width: 100%;
+    height: 178px;
+    border: none;
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 178px;
+    min-height: 178px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    padding-top: 10px;
+    background-color: #EFEFEF;
+}
+
+.form button{
+    width: 100%;
+    height: 65px;
+    border-radius: 5px;
+    outline: 0;
+    border: none;
+    color: #FFFFFF;
+    font-size: 20px;
+    background-color: #466265;
+}
+
+.contato-text{
+    width: 100%;
+    height: 472px;
+    border-radius: 3px;
+    text-align: center;
+    background-color: #466265;
+}
+
+.contato-text h1{
+    font-size: 3.2em;
+    padding-top: 100px;
+    color: #FFFFFF;
+}
+
+.contato-text p{
+    font-size: 1.8em;
+    padding-top: 15px;
+    color: #FFFFFF;
+}
 
 .footer{
     height: 138px;
@@ -202,6 +280,75 @@ body{
     padding: 10px;
     border-radius: 40px;
     background-color: #466265;
+}
+
+.carrosel-image{
+    height: 300px;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+    border: solid 1px #707070;
+}
+
+.carrosel-image img{
+    width: 50%;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carrosel-image button{
+    width: 180px;
+    height: 50px;
+    border-radius: 5px;
+    outline: 0;
+    border: none;
+    color: #FFFFFF;
+    background-color: #466265;
+}
+
+.class-borrachauto{
+    margin-top: 137px;
+}
+
+.class-donHenrique{
+    margin-top: 3px;
+}
+
+.class-tutor{
+    margin-top: 25px;
+}
+
+.class-lotus{
+    margin-top: 105px;
+}
+
+.class-voa{
+    margin-top: 127px;
+}
+
+.class-arena{
+    margin-top: 98px;
+}
+
+.class-genios{
+    margin-top: 130px;
+}
+
+.class-tech{
+    margin-top: 148px;
+}
+
+
+@media only screen and (max-width: 1400px){
+
+    
 }
 
 @media only screen and (max-width: 1150px){
