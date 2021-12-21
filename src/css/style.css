@@ -3,6 +3,10 @@
     padding: 0px;
 }
 
+body{
+    background-color: #EFEFEF;
+}
+
 @font-face{
     font-family: 'nav-bar';
     src: url('../fonts/Rubik-Medium.ttf');
@@ -97,41 +101,107 @@
     text-align: center;
 }
 
-.section{
-    width: 100%;
-    height: 1000px;
-    background-color: #EFEFEF;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.section h1{
-    font-size: 40px;
+.my-section-button{
+    width: 300px; 
+    height: 90px; 
+    border-radius: 5px; 
+    font-size: 23px; 
     color: #466265;
-    padding-top: 40px;
+    outline: 0;
+    border: none;
+    transition: 0.5s;
 }
 
-.section-text{
-    width: 1047px;
-    height: 216px;
-    text-align: center;
-    padding-top: 55px;
+.my-section-button:hover{
+    font-size: 25px;
+    transition: 0.5s;
 }
 
-.section-grid{
-    width: 1200px;
-    height: 350px;
+.info-mais{
+    background-color: #FFFFFF; 
+    min-height: 600px; 
+    height: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
-.section-grid div{
+.info-mais-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.animation-card{
     width: 300px;
-    height: 300px;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 5px;
+    border: solid 1px #707070;
+    transition: 0.5s;
+}
+
+.animation-card:hover{
+    width: 320px;
+    height: 470px;
+    transition: 0.5s;
+    border: solid 1px #707070;
+} 
+
+.contato-title{
+    width: 300px;
+    height: 100px;
+    padding-top: 80px;
+}
+
+.contato-title h1{
+    font-size: 3.5em;
+    color: #466265;
+}
+
+.line{
+    width: 90px;
+    height: 9px;
+    background-color: #B4DFE3;
+}
+
+.contato-email{
+    width: 400px;
+    height: 130px;
     background-color: #FFFFFF;
+    margin-top: 70px;
+    border-radius: 5px;
+}
+
+.contato-fone{
+    width: 400px;
+    height: 130px;
+    background-color: #FFFFFF;
+    margin-top: 70px;
+    border-radius: 5px;
+}
+
+
+.footer{
+    height: 138px;
+    padding-left: 80px;
+    padding-right: 50px;
+}
+
+.icons-redes-sociais{
+    width: 300px; 
+    height: 90px; 
+    display: flex;
+    justify-content: space-around;
+}
+
+.icons-redes-sociais img{
+    width: 70%;
+    padding: 10px;
+    border-radius: 40px;
+    background-color: #466265;
 }
 
 @media only screen and (max-width: 1150px){
