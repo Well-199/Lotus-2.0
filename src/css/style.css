@@ -1,0 +1,151 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face{
+    font-family: 'nav-bar';
+    src: url('../fonts/Rubik-Medium.ttf');
+}
+
+.navbar{
+    background-color: #466265;
+    height: 108px;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #FFFFFF;
+}
+
+.navbar-light .navbar-nav .nav-link:active{
+    color: #707070;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #707070;
+}
+
+.navbar-nav a{
+    font-family: 'nav-bar';
+}
+
+.img-logo{
+    width: 80px;
+}
+
+.my-nav{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-button{
+    width: 187px;
+    height: 57px;
+    outline: 0px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #466265;
+    transition: 0.7s;
+}
+
+.nav-button:hover{
+    font-size: 22px;
+    transition: 0.7s;
+}
+
+.div-main{
+    width: 100%;
+    height: 500px;
+    background-image: url('../images/background-image.PNG');
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-text{
+    width: 1000px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-text h1{
+    font-size: 50px;
+    font-family: 'nav-bar';
+    color: #FFFFFF;
+}
+
+.main-text p{
+    font-size: 30px;
+    font-family: 'nav-bar';
+    color: #B4DFE3;
+}
+
+.main-text a{
+    text-decoration: none;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+.main-text-div{
+    width: 250px;
+    height: 47px;
+    border: solid 2px #FFFFFF;
+    text-align: center;
+}
+
+.section{
+    width: 100%;
+    height: 1000px;
+    background-color: #EFEFEF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section h1{
+    font-size: 40px;
+    color: #466265;
+    padding-top: 40px;
+}
+
+.section-text{
+    width: 1047px;
+    height: 216px;
+    text-align: center;
+    padding-top: 55px;
+}
+
+.section-grid{
+    width: 1200px;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.section-grid div{
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+}
+
+@media only screen and (max-width: 1150px){
+
+    .my-nav{
+        margin-left: 0px;
+    }
+
+    .my-navbar-brand{
+        display: none;
+    }
+
+    .navbar{
+        background-color: #466265;
+        height: auto;
+    }
+}
