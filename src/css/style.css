@@ -282,6 +282,12 @@ body{
     background-color: #466265;
 }
 
+.carousel-container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .carrosel-image{
     height: 300px;
     min-height: 300px;
@@ -293,7 +299,7 @@ body{
     margin-left: 20px;
     margin-right: 20px;
     border-radius: 5px;
-    border: solid 1px #707070;
+    border: solid 1px #dfe6e9;
 }
 
 .carrosel-image img{
@@ -301,6 +307,10 @@ body{
     padding-top: 20px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.carrosel-image h5{
+    color: #466265;
 }
 
 .carrosel-image button{
@@ -311,6 +321,10 @@ body{
     border: none;
     color: #FFFFFF;
     background-color: #466265;
+}
+
+.didio-class{
+    margin-top: 8px;
 }
 
 .class-borrachauto{
@@ -345,10 +359,95 @@ body{
     margin-top: 148px;
 }
 
-
 @media only screen and (max-width: 1400px){
 
+    .contato-text{
+        width: 80%;
+        margin-left: 100px;
+    }
     
+    .contato-text h1{
+        font-size: 3.0em;
+    }
+    
+    .contato-text p{
+        font-size: 1.5em;
+    }
+}
+
+@media only screen and (max-width: 1315px){
+
+    .info-mais{
+        width: 100%;
+    }
+
+    .animation-card{
+        width: 250px;
+    }
+
+    .animation-card:hover{
+        width: 250px;
+    }
+}
+
+@media only screen and (max-width: 1280px){
+
+    .carousel-container{
+        width: 1000px;
+    }
+
+    .didio-class{
+        margin-top: 8px;
+    }
+    
+    .class-borrachauto{
+        margin-top: 109px;
+    }
+    
+    .class-donHenrique{
+        margin-top: 4px;
+    }
+    
+    .class-tutor{
+        margin-top: 25px;
+    }
+    
+    .class-lotus{
+        margin-top: 85px;
+    }
+    
+    .class-voa{
+        margin-top: 100px;
+    }
+    
+    .class-arena{
+        margin-top: 80px;
+    }
+    
+    .class-genios{
+        margin-top: 106px;
+    }
+    
+    .class-tech{
+        margin-top: 123px;
+    }
+    
+}
+
+@media only screen and (max-width: 1198px){
+
+    .contato-text{
+        width: 80%;
+        margin-left: 100px;
+    }
+    
+    .contato-text h1{
+        font-size: 2.0em;
+    }
+    
+    .contato-text p{
+        font-size: 1.0em;
+    }
 }
 
 @media only screen and (max-width: 1150px){
@@ -366,3 +465,186 @@ body{
         height: auto;
     }
 }
+
+@media only screen and (max-width: 1070px){
+
+    .carousel-container{
+        width: 800px;
+    }
+
+    .didio-class{
+        margin-top: 8px;
+    }
+    
+    .class-borrachauto{
+        margin-top: 130px;
+    }
+    
+    .class-donHenrique{
+        margin-top: 10px;
+    }
+    
+    .class-tutor{
+        margin-top: 30px;
+    }
+    
+    .class-lotus{
+        margin-top: 100px;
+    }
+    
+    .class-voa{
+        margin-top: 122px;
+    }
+    
+    .class-arena{
+        margin-top: 98px;
+    }
+    
+    .class-genios{
+        margin-top: 125px;
+    }
+    
+    .class-tech{
+        margin-top: 143px;
+    }
+}
+
+@media only screen and (max-width: 1113px){
+
+    .animation-card{
+        width: 220px;
+    }
+
+    .animation-card:hover{
+        width: 220px;
+    }
+}
+
+@media only screen and (max-width: 993px){
+
+    .animation-card{
+        width: 320px;
+        margin-bottom: 20px;
+    }
+
+    .animation-card:hover{
+        width: 320px;
+    }
+
+    .info-mais-row{
+        width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .form{
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contato-text{
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contato-email{
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .contato-fone{
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contato-title{
+        margin-left: 30px;
+    }
+}
+
+@media only screen and (max-width: 885px){
+
+    .main-text h1{
+        font-size: 2.5em;
+    }
+}
+
+@media only screen and (max-width: 870px){
+
+    .carousel-container{
+        width: 700px;
+    }
+}
+
+@media only screen and (max-width: 885px){
+
+    .main-text h1{
+        font-size: 2.0em;
+    }
+
+    .main-text p{
+        font-size: 1.0em;
+    }
+
+    .main-text-div{
+        width: 200px;
+        height: 40px;
+    }
+
+    .main-text a{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 730px){
+
+    .carousel-container{
+        width: 600px;
+    }
+}
+
+@media only screen and (max-width: 767px){
+
+    .card{
+        margin-bottom: 15px;
+    }
+
+    .form{
+        margin-bottom: 50px;
+    }
+
+    .form-container{
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (max-width: 630px){
+
+    .carousel-container{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 580px){
+
+    .main-text h1{
+        font-size: 1.2em;
+    }
+
+    .contato-title{
+        width: 180px;
+    }
+    
+    .contato-title h1{
+        font-size: 2.5em;
+    }
+
+}
+
