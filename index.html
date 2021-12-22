@@ -20,25 +20,27 @@
     <title>Lotus Corporações</title>  
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-light" id="home">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="./src/images/Lotus logo Branco sem fundo.png" class="img-logo"/></a>
+            <a class="navbar-brand" href="#home  "><img src="./src/images/Lotus logo Branco sem fundo.png" class="img-logo"/></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="my-nav">
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link" aria-current="page" href="#">Home</a>
-                        <a class="nav-link" href="#">Quem Somos</a>
-                        <a class="nav-link" href="#">Empresas do grupo</a>
-                        <a class="nav-link" href="#">Acelaradora de Empresas</a>
-                        <a class="nav-link" href="#">Visão, Missão e Valores</a>
-                        <a class="nav-link" href="#">Contato</a>             
+                        <a class="nav-link" aria-current="page" href="#home">Home</a>
+                        <a class="nav-link" href="#QuemSomos">Quem Somos</a>
+                        <a class="nav-link" href="#empresas-do-grupo">Empresas do grupo</a>
+                        <a class="nav-link" href="#aceleradora-de-empresas">Aceleradora de Empresas</a>
+                        <a class="nav-link" href="#visao-missao-valores">Visão, Missão e Valores</a>
+                        <a class="nav-link" href="#contato">Contato</a>             
                     </div>
                 </div>
             </div>
-            <a class="my-navbar-brand" href="#"><button class="nav-button">Saiba mais</button></a>
+            <a class="my-navbar-brand" href="#saiba-mais">
+                <button class="nav-button">Saiba mais</button>
+            </a>
         </div>
     </nav>
 
@@ -50,14 +52,14 @@
 
             <p>Lotus Corporações</p>
 
-            <a href="">
+            <a href="#QuemSomos">
                 <div class="main-text-div">Quem somos?</div>
             </a>
         </div>
     </div>
 
     <div class="container-fluid section pb-5">
-        <div class="container">
+        <div class="container" id="QuemSomos">
             <div class="row mt-5">
                 <div class="col-md-4"></div>
                 <div class="col-md-4 text-center mt-3">
@@ -123,7 +125,7 @@
     </div>
 
     <!-- Start Carousel Cards -->
-    <div class="container-fluid pt-5 pb-5" style="background-color: #FFFFFF; min-height: 550px; height: auto;">
+    <div class="container-fluid pt-5 pb-5" style="background-color: #FFFFFF; min-height: 550px; height: auto;" id="empresas-do-grupo">
         <div class="row text-center pb-5">
             <h2 style="color: #466265;">Empresas do grupo</h2>
         </div>
@@ -137,7 +139,7 @@
                         <div class="didio-class">
                             <h5 class="card-title">Dídio Pizza</h5>
 
-                            <a href="#">
+                            <a href="https://www.didio.com.br/" target="blank">
                                 <button>ver sobre</button>
                             </a>
                         </div>
@@ -149,7 +151,7 @@
                         <div class="class-borrachauto">
                             <h5 class="card-title">Borrachauto</h5>
 
-                            <a href="#">
+                            <a href="https://www.borrachauto.com.br/" target="blank">
                                 <button>ver sobre</button>
                             </a>
                         </div>
@@ -161,7 +163,7 @@
                         <div class="class-donHenrique">
                             <h5 class="card-title">Dom Henrique</h5>
 
-                            <a href="#">
+                            <a href="https://www.colegiodomhenrique.com.br/" target="blank">
                                 <button>ver sobre</button>
                             </a>
                         </div>
@@ -173,7 +175,7 @@
                         <div class="class-tutor">
                             <h5 class="card-title">Tutor</h5>
 
-                            <a href="#">
+                            <a href="https://www.colegiotutor.com.br/" target="blank">
                                 <button>ver sobre</button>
                             </a>
                         </div>
@@ -185,7 +187,7 @@
                         <div class="class-lotus">
                             <h5 class="card-title">Lotus Corporações</h5>
 
-                            <a href="#">
+                            <a href="#home">
                                 <button>ver sobre</button>
                             </a>
                         </div>
@@ -197,7 +199,7 @@
                         <div class="class-voa">
                             <h5 class="card-title">Voa Cobranças</h5>
 
-                            <a href="#">
+                            <a href="https://voacobrancaseducacionais.com.br/" target="blank">
                                 <button>ver sobre</button>
                             </a>
                         </div>
@@ -209,7 +211,7 @@
                         <div class="class-arena">
                             <h5 class="card-title">Arena Vidros</h5>
 
-                            <a href="#">
+                            <a href="https://arenavidros.com.br/" target="blank">
                                 <button>ver sobre</button>
                             </a>
                         </div>
@@ -221,19 +223,19 @@
                         <div class="class-genios">
                             <h5 class="card-title">Genios Shop</h5>
 
-                            <a href="#">
+                            <a href="https://www.genioshop.com.br/" target="blank">
                                 <button>ver sobre</button>
                             </a>
                         </div>
                     </div>
 
                     <div class="carrosel-image">
-                        <img src="./src/images-carousel/8 - Logo-escura.png" class="card-img-top" alt="ech Eleven">
+                        <img src="./src/images-carousel/8 - Logo-escura.png" class="card-img-top" alt="Tech Eleven">
 
                         <div class="class-tech">
                             <h5 class="card-title">Tech Eleven</h5>
 
-                            <a href="#">
+                            <a href="https://www.techeleven.com.br/" target="blank">
                                 <button>ver sobre</button>
                             </a>
                         </div>
@@ -247,7 +249,7 @@
     <!-- End Carousel Cards -->
 
     <!-- Start section info -->
-    <div class="container-fluid pb-5" style="background-color: #466265; min-height: 600px; height: auto;">
+    <div class="container-fluid pb-5" style="background-color: #466265; min-height: 600px; height: auto;" id="aceleradora-de-empresas">
 
         <div class="row">
             <div class="col" style="display: flex; justify-content: center;">
@@ -275,7 +277,7 @@
                 <div class="row">
                     <div class="col">
                         <div style="display: flex; justify-content: center;">
-                            <a href="#">
+                            <a href="#saiba-mais">
                                 <button class="my-section-button">
                                     Quero acelerar!
                                 </button>
@@ -290,7 +292,7 @@
     <!-- End section info -->
 
     <!-- Start section info-mais -->
-    <div class="container-fluid pt-5 info-mais">
+    <div class="container-fluid pt-5 info-mais" id="visao-missao-valores">
         <div class="row info-mais-row d-flex justify-content-center">
             <div class="col">
                 <div class="animation-card" style="background-color: #466265;">
@@ -336,25 +338,27 @@
     <!-- End section info-mais -->
 
     <!-- Start Contato / Localização -->
-    <div class="container-fluid" style="background-color: #EFEFEF; min-height: 800px; height: auto;">
+    <div class="container-fluid" style="background-color: #EFEFEF; min-height: 800px; height: auto;" id="contato">
 
-        <div class="container">
-            <div class="row pt-5">
-                <div class="col">
+        <div class="container-fluid container-xl contact-container">
+            <div class="row pt-3">
+                <div class="col-lg-4 col-md-12">
                     <div class="contato-title">
                         <h1>Contato</h1>
                         <div class="line"></div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-lg-4 col-md-12">
                     <div class="contato-email">
                         <div class="row">
-                            <div class="col-md-3 pt-1 m-lg-3">
-                                <div style="width: 90px; height: 90px; border-radius: 60px; background-color: #466265; display: flex; justify-content: center; align-items: center;">
-                                    <img src="./src/images/email.png" alt="E-mail" style="filter: invert(1);"/>
+                            <div class="col-3 col-md-3 pt-1 m-lg-3">
+                                <div class="email">
+                                    <a href="mailto:contato@lotuscorporacoes.com.br" style="text-decoration: none;">
+                                        <img src="./src/images/email.png" alt="E-mail" style="filter: invert(1); cursor: pointer;"/>
+                                    </a>
                                 </div>
                             </div>
-                            <div class="col-md-7 pt-5">
+                            <div class="col-7 col-md-7 pt-5">
                                 <h5 style="color: #466265;">Email:</h5>
                                 <a href="mailto:contato@lotuscorporacoes.com.br" style="text-decoration: none;">
                                     <address style="color: #99A7A8;">
@@ -365,15 +369,15 @@
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-lg-4 col-md-12">
                     <div class="contato-fone">
                         <div class="row">
-                            <div class="col-md-3 pt-1 m-lg-3">
-                                <div style="width: 90px; height: 90px; border-radius: 60px; background-color: #466265; display: flex; justify-content: center; align-items: center;">
+                            <div class="col-3 col-md-3 pt-1 m-lg-3">
+                                <div class="phone">
                                     <img src="./src/images/telefone.png" alt="Telefone" style="filter: invert(1);">
                                 </div>
                             </div>
-                            <div class="col-md-7 pt-5">
+                            <div class="col-7 col-md-7 pt-5">
                                 <h5 style="color: #466265;">Telefone:</h5>
                                 <a style="text-decoration: none;">
                                     <address style="color: #99A7A8;">
@@ -400,7 +404,7 @@
 
     <!-- Start Formulario Contato -->
     <div class="container-fluid pb-5" style="background-color: #FFFFFF; min-height: 600px; height: auto;">
-        <div class="container pt-5">
+        <div class="container pt-5" id="saiba-mais">
             <div class="row form-container">
                 <div class="col-md-4">
                     <form method="post" class="form" action="contato.php">
@@ -440,28 +444,30 @@
         <div class="row pt-3">
             <div class="col">
                 <div style="width: 214px; height: 47px;">
-                    <img src="./src/images/Logo-escura-powered.png" alt="techeleven" style="width: 100%;">
+                    <a href="https://www.techeleven.com.br/" target="blank">
+                        <img src="./src/images/Logo-escura-powered.png" alt="techeleven" style="width: 100%;">
+                    </a>
                 </div>
 
-                <div class="pt-2">
+                <div class="pt-2" class="copyright">
                     <h6>© Copyright <span style="color: #466265;">Lotus Corporações.</span> Todos os direitos reservados</h6>
                 </div>
             </div>
 
             <div class="col" style="display: flex; justify-content: flex-end;">
                 <div class="icons-redes-sociais">
-                    <div style="width: 120px;">
+                    <div style="width: 100px;">
                         <a href="https://www.instagram.com/techeleven.digital/?hl=en" target="blank">
                             <img src="./src/images/logotipo-do-instagram.png" alt="Instagram"/>
                         </a>
                     </div>
-                    <div style="width: 120px;">
+                    <div style="width: 100px;">
                         <a href="https://www.linkedin.com/company/tech-eleven/mycompany/" target="blank">
                             <img src="./src/images/logotipo-do-linkedin.png" alt="Linkedin"/>
                         </a>
                     </div>
 
-                    <div style="width: 120px;">
+                    <div style="width: 100px;">
                         <a href="https://www.facebook.com/techeleven.digital/" target="blank">
                             <img src="./src/images/logotipo-do-facebook.png" alt="Facebook"/>
                         </a>
@@ -474,7 +480,7 @@
     
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="./src/css/slick.js"></script>
+    <script type="text/javascript" src="./src/script/slick.js"></script>
 
     <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.11/jquery.mask.min.js"></script>

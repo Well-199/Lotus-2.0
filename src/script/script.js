@@ -4,7 +4,7 @@ $("#telefone").mask("(00) 00000-0000");
         $('.carousel').slick({
             centerMode: true,
             centerPadding: '40px',
-            // autoplay: true,
+            autoplay: true,
             slidesToShow: 3,
             responsive: [
                 {
