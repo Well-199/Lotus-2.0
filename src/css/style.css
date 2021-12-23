@@ -7,6 +7,10 @@ body{
     background-color: #EFEFEF;
 }
 
+.gallery__item:nth-child(1){
+    z-index: 0;
+}
+
 .slick-next{
     filter: invert(1);
 }
@@ -32,6 +36,11 @@ body{
     display: flex; 
     justify-content: center; 
     align-items: center;
+    text-align: center;
+}
+
+.email img{
+    width: 80%;
 }
 
 .phone{
@@ -42,6 +51,21 @@ body{
     display: flex; 
     justify-content: center; 
     align-items: center;
+    text-align: center;
+}
+
+.phone img{
+    width: 60%;
+}
+
+.icon-criar{
+    width: 50px;
+    height: 50px;
+    display: flex;
+}
+
+.icon-criar img{
+    width: 100%;
 }
 
 @font-face{
@@ -173,7 +197,7 @@ body{
     width: 300px;
     height: 450px;
     display: flex;
-    align-items: center;
+    padding-top: 20px;
     justify-content: center;
     border-radius: 5px;
     border: solid 1px #707070;
@@ -186,6 +210,18 @@ body{
     transition: 0.5s;
     border: solid 1px #707070;
 } 
+
+.animation-card-lotus{
+    width: 300px;
+    height: 450px;
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: solid 1px #707070;
+    transition: 0.5s;
+}
 
 .contato-title{
     width: 300px;
@@ -388,6 +424,185 @@ body{
     margin-top: 148px;
 }
 
+/* INICIO DE MARCAS */
+
+/* ================================= */
+
+#marcas {
+    margin-top: 5em;
+    background: #FFFFFF;
+    padding-top: 50px;
+}
+
+#marcas h1 {
+    color: #527697;
+    font-weight: bold;
+    position: relative;
+    border-bottom: 8px solid #DEBE7A;
+}
+
+#marcas .marcas-logos {
+    background-color: #FFFFFF;
+    /* background: rgb(93, 158, 197);
+    background: linear-gradient(90deg, rgba(93, 158, 197, 1) 0%, rgba(74, 94, 122, 1) 100%); */
+}
+
+.lista-servicos button{
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    outline: 0;
+    border: none;
+    color: #FFFFFF;
+    z-index: 1000;
+    background-color: #466265;
+}
+
+
+#marcas .marcas-logos .card{
+    background: white;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 12em;
+    border-radius: 25px;
+    margin-top: 2em;
+    overflow: hidden;
+    transition: .1s linear;
+    -webkit-box-shadow: 5px 2px 19px -13px #000000; 
+    box-shadow: 5px 2px 19px -13px #000000;
+}
+
+#marcas .marcas-logos img {
+    width: 80%;
+    /* filter: grayscale(100%); */
+    transition: .1s linear;
+}
+
+#marcas .marcas-logos .card-image {
+    text-align: center;
+    filter: grayscale(100%);
+}
+
+#marcas .marcas-logos .case {
+    transition: .5s linear;
+}
+
+#marcas .marcas-logos .card-text {
+    position: absolute;
+    top: 0;
+    transform: rotateX(180deg);
+    transition: .1s linear;
+    color: #466265;
+    opacity: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#marcas .card-text .services {
+    padding: 0 1.2em 0 1.2em;
+    text-align: center !important;
+}
+
+#marcas .card-text .service {
+    width: 2em;
+    margin: .8em 0 .8em 0;
+    filter: invert(100%);
+}
+
+#marcas .marcas-logos .gallery__item:hover>.card {
+    transition: .5s linear;
+}
+
+#marcas .marcas-logos .link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.644);
+    height: 100%;
+    width: 100%;
+    transition: .5s linear;
+    z-index: 1;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    transform: translateY(100%);
+    transition: .3s all ease;
+}
+
+#marcas .marcas-logos .gallery__item:hover>.card .card-text {
+    transition: .9s linear;
+    opacity: 1;
+}
+
+#marcas .lista-servicos {
+    position: absolute;
+    width: 200%;
+    left: -50%;
+    text-align: center;
+    margin-top: 1em;
+    color: #466265;
+    opacity: 0;
+    transition: .5s all ease;
+}
+
+#marcas .lista-servicos h4 {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#marcas .lista-servicos p {
+    font-size: 12px;
+}
+
+.carrosel-image{
+    height: 300px;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 2px;
+    border: solid 1px #dfe6e9;
+}
+
+.didio-pizza{
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.didio-pizza h5{
+    color: #466265;
+}
+
+.didio-pizza p{
+    color: #466265;
+}
+
+@media (max-width:1000px) {
+    #marcas .lista-servicos {
+        width: 100%;
+        left: 0;
+    }
+}
+
+/* ================================= */
+
+/* FIM DE MARCAS */
+
 @media only screen and (max-width: 1400px){
 
     .contato-text{
@@ -425,6 +640,10 @@ body{
     }
 
     .animation-card{
+        width: 250px;
+    }
+
+    .animation-card-lotus{
         width: 250px;
     }
 
@@ -552,9 +771,25 @@ body{
     }
 }
 
+@media only screen and (max-width: 1128px){
+
+    .contato-fone{
+        width: 315px;
+    }
+
+    .contato-email{
+        width: 315px;
+    }
+    
+}
+
 @media only screen and (max-width: 1113px){
 
     .animation-card{
+        width: 220px;
+    }
+
+    .animation-card-lotus{
         width: 220px;
     }
 
@@ -571,11 +806,26 @@ body{
         flex-basis: 100%;
         align-items: center;
     }
+
+    .contato-text h1{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .contato-text p{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
 
 @media only screen and (max-width: 993px){
 
     .animation-card{
+        width: 320px;
+        margin-bottom: 20px;
+    }
+
+    .animation-card-lotus{
         width: 320px;
         margin-bottom: 20px;
     }
